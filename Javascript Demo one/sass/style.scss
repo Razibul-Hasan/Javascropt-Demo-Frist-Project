@@ -1,0 +1,58 @@
+        $padding :15px;
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background-color: #39a164;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .input-group {
+            text-align: center;
+            padding: $padding;
+            input[type="text"] {
+                padding: 5px 5px;
+                box-shadow: 1px 1px #fbfbfb;
+                background-color: #39a164;
+                width: 300px;
+                color: rgb(255, 255, 255);
+            }
+             ::placeholder {
+                color: #fff;
+                padding: 5px;
+                text-align: center;
+            }
+            button {
+                background: black;
+                color: #fff;
+                padding: 6px 23px;
+                width: 100px;
+                transition: .2s;
+                &:hover {
+                    color: rgb(0, 0, 0);
+                    background-color: #94cc2b;
+                }
+            }
+        }
+        
+        #subscription_area {
+            h4 {
+                font-size: 50px;
+                color: #fff;
+                text-transform: capitalize;
+                text-align: center;
+                padding: $padding;
+            }
+            p {
+                font-size: 30px;
+                color: #fff;
+                text-align: center;
+                text-transform: capitalize;
+                padding: $padding;
+            }
+        }
